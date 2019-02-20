@@ -38,6 +38,19 @@ Junit :
 This is a java unit testing framework. It uses annotations and assert statements for unit tests. The tests are 
 not executed in any particular order.
 
+Maven Config : 
+--------------
+
+#### Junit4 : 
+
+```maven
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	</dependency>
+```
+
 ### Important Annotations : 
 
 |JUnit 4|Description|
