@@ -1,4 +1,3 @@
-
 |URLs                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------  |
 |https://app.pluralsight.com/library/courses/java-testing-introduction/table-of-contents                      |
