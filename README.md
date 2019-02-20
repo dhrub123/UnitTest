@@ -111,3 +111,19 @@ The following disables a test on Linux:
 ```java
 Assume.assumeFalse(System.getProperty("os.name").contains("Linux"));
 ```
+
+#### Test for Exceptions:
+
+The following test will be successful if aops.divide(1000, 5) throws an
+IllegalArgumentException.
+
+```java
+@Test(expected = IllegalArgumentException.class)
+public void testIfExceptionIsThrown() {
+	ArithmeticOperations aops = new ArithmeticOperations();
+	aops.divide(1000, 5);
+}
+```
+
+Junit5
+------
