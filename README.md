@@ -1,17 +1,13 @@
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| URLs                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------- |
+| https://app.pluralsight.com/library/courses/java-testing-introduction/table-of-contents                     |
+| https://app.pluralsight.com/library/courses/junit-5-unit-testing-getting-started/table-of-contents          | 
+| https://app.pluralsight.com/library/courses/junit-5-fundamentals/table-of-contents                          |
+| https://app.pluralsight.com/library/courses/test-driven-development-java/table-of-contents(This has mockito)|
 
 Testing
 ----------
-```https://app.pluralsight.com/library/courses/java-testing-introduction/table-of-contents
-https://app.pluralsight.com/library/courses/junit-5-unit-testing-getting-started/table-of-contents -- In Progress
-https://app.pluralsight.com/library/courses/junit-5-fundamentals/table-of-contents
-https://app.pluralsight.com/library/courses/test-driven-development-java/table-of-contents(This has mockito)```
-
 This repo is a knowledge base for Junit and mockito and can be further extended to automation tests in future - Cucumber
 
 Behaviour testing vs State testing : 
