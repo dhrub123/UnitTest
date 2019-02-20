@@ -1,10 +1,12 @@
 
-| URLs                                                                                                        |
-| ----------------------------------------------------------------------------------------------------------- |
-| https://app.pluralsight.com/library/courses/java-testing-introduction/table-of-contents                     |
-| https://app.pluralsight.com/library/courses/junit-5-unit-testing-getting-started/table-of-contents          | 
-| https://app.pluralsight.com/library/courses/junit-5-fundamentals/table-of-contents                          |
-| https://app.pluralsight.com/library/courses/test-driven-development-java/table-of-contents(This has mockito)|
+|URLs                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------  |
+|https://app.pluralsight.com/library/courses/java-testing-introduction/table-of-contents                      |
+|https://app.pluralsight.com/library/courses/junit-5-unit-testing-getting-started/table-of-contents           | 
+|https://app.pluralsight.com/library/courses/junit-5-fundamentals/table-of-contents                           |
+|https://app.pluralsight.com/library/courses/test-driven-development-java/table-of-contents (This has mockito)|
+|https://www.vogella.com/tutorials/JUnit/article.html|
+|http://tutorials.jenkov.com/java-unit-testing/index.html|
 
 Testing
 ----------
