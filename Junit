@@ -6,3 +6,12 @@ https://app.pluralsight.com/library/courses/junit-5-fundamentals/table-of-conten
 https://app.pluralsight.com/library/courses/test-driven-development-java/table-of-contents(This has mockito)
 
 This repo is a knowledge base for Junit and mockito and can be further extended to automatio tests in future - Cucumber
+
+Behaviour testing : 
+------------------
+This tests are concerned with behaviour, not result. They test whether a certain method is called at a 
+certain point with correct parameters. They do not check what output the method produces.
+
+State testing : 
+---------------
+State testing on the other hand checks for sanity of result, whether the result is valid and correct.
