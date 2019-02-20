@@ -137,6 +137,3 @@ public void testIfExceptionIsThrown() {
 	aops.divide(1000, 5);
 }
 ```
-
-Junit5
-------
