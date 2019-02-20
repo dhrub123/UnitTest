@@ -70,7 +70,7 @@ not executed in any particular order.
 
 |Type|Code|
 |----|----|
-|Run Test|import org.junit.runner.JUnitCore;
+|Run Test|```import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
@@ -81,8 +81,8 @@ public class MyTestRunner {
       System.out.println(failure.toString());
     }
   }
-}|
-|Run Suite| import org.junit.runner.RunWith;
+}```|
+|Run Suite| ```import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
@@ -93,4 +93,4 @@ import org.junit.runners.Suite.SuiteClasses;
 
 public class AllTests {
 
-}|
+}```|
