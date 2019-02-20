@@ -32,3 +32,8 @@ of code is integrated in the system
 
 Performance testing involves repeated testing of code to get benchmark data. They are performed to ensure that 
 the system performs well even under high load. Frameworks like gattling are used for functional testing.
+
+Junit :
+-------
+This is a java unit testing framework. It uses annotations and assert statements for unit tests. The tests are 
+not executed in any particular order.
