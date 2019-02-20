@@ -100,3 +100,14 @@ import org.junit.runners.Suite.SuiteClasses;
 public class AllTests {
 } 
 ```
+
+#### Disable tests: 
+
+We can use Assume.assumeFalse or Assume.assumeTrue to define a condition for the test. 
+Assume.assumeFalse marks the test as invalid, if its condition evaluates to true. 
+Assume.assumeTrue evaluates the test as invalid if its condition evaluates to false. 
+The following disables a test on Linux:
+
+```java
+Assume.assumeFalse(System.getProperty("os.name").contains("Linux"));
+```
