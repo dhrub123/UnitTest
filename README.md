@@ -65,3 +65,32 @@ not executed in any particular order.
 |assertNotNull([message,] object)|Checks that the object is not null.|
 |assertSame([message,] expected, actual)|Checks that both variables refer to the same object.|
 |assertNotSame([message,] expected, actual)|Checks that both variables refer to different objects.|
+
+### Junit Tests from command line : 
+
+|Type|Code|
+|----|----|
+|Run Test|import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
+
+public class MyTestRunner {
+  public static void main(String[] args) {
+    Result result = JUnitCore.runClasses(MyClassTest.class);
+    for (Failure failure : result.getFailures()) {
+      System.out.println(failure.toString());
+    }
+  }
+}|
+|Run Suite| import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Suite.class)
+@SuiteClasses({
+        MyClassTest.class,
+        MySecondClassTest.class })
+
+public class AllTests {
+
+}|
