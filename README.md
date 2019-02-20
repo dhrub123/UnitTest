@@ -1,12 +1,30 @@
-|URLs                                                                                                         |
-|-----------------------------------------------------------------------------------------------------------  |
-|https://app.pluralsight.com/library/courses/java-testing-introduction/table-of-contents                      |
-|https://app.pluralsight.com/library/courses/junit-5-unit-testing-getting-started/table-of-contents           | 
-|https://app.pluralsight.com/library/courses/junit-5-fundamentals/table-of-contents                           |
-|https://app.pluralsight.com/library/courses/test-driven-development-java/table-of-contents (This has mockito)|
-|https://www.vogella.com/tutorials/JUnit/article.html|
-|http://tutorials.jenkov.com/java-unit-testing/index.html|
+### URLS :
+#### Video :
+```
+https://app.pluralsight.com/library/courses/java-testing-introduction/table-of-contents                      
+https://app.pluralsight.com/library/courses/junit-5-unit-testing-getting-started/table-of-contents          
+https://app.pluralsight.com/library/courses/junit-5-fundamentals/table-of-contents                          
+https://app.pluralsight.com/library/courses/test-driven-development-java/table-of-contents (This has mockito)
+```
 
+#### Junit :
+```
+https://www.vogella.com/tutorials/JUnit/article.html
+http://tutorials.jenkov.com/java-unit-testing/index.html
+https://www.journaldev.com/20834/junit5-tutorial
+```
+
+#### Mockito : 
+```
+https://www.vogella.com/tutorials/Mockito/article.html
+https://www.baeldung.com/mockito-series
+https://www.journaldev.com/21816/mockito-tutorial
+```
+
+#### TestNG : 
+```
+https://www.journaldev.com/21219/testng-tutorial
+```
 Testing
 ----------
 This repo is a knowledge base for Junit and mockito and can be further extended to automation tests in future - Cucumber
