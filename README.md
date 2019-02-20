@@ -68,24 +68,26 @@ not executed in any particular order.
 
 ### Junit Tests from command line : 
 
-|Type|Code|
-|----|----|
-|Run Test|```
-import org.junit.runner.JUnitCore
-import org.junit.runner.Result
-import org.junit.runner.notification.Failure
+#### Run Test
+
+`import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
 
 public class MyTestRunner {
   public static void main(String[] args) {
-    Result result = JUnitCore.runClasses(MyClassTest.class)
+    Result result = JUnitCore.runClasses(MyClassTest.class);
     for (Failure failure : result.getFailures()) {
-      System.out.println(failure.toString())
+      System.out.println(failure.toString());
     }
   }
-}```|
-|Run Suite| ```import org.junit.runner.RunWith
-import org.junit.runners.Suite
-import org.junit.runners.Suite.SuiteClasses
+}`
+
+#### Run Suite
+
+`import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses({
@@ -94,4 +96,4 @@ import org.junit.runners.Suite.SuiteClasses
 
 public class AllTests {
 
-}```|
+}`
