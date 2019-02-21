@@ -58,13 +58,20 @@ not executed in any particular order.
 Maven Config : 
 --------------
 
-#### Junit4 : 
+#### Junit4 and Hamcrest : 
 
 ```maven
 	<dependency>
 	    <groupId>junit</groupId>
 	    <artifactId>junit</artifactId>
 	    <version>4.12</version>
+	</dependency>
+    
+    <dependency>
+	    <groupId>org.hamcrest</groupId>
+	    <artifactId>hamcrest-all</artifactId>
+	    <version>${hamcrest.version}</version>
+	    <scope>test</scope>
 	</dependency>
 ```
 
@@ -154,3 +161,30 @@ public void testIfExceptionIsThrown() {
 	aops.divide(1000, 5);
 }
 ```
+
+### Hamcrest - Make Assertions readable
+
+#### Core
+|Matcher|Description|
+|-------|-----------|
+|any()|Matches anything|
+|is()|checks if given objects are equal|
+|describedAs()|Adds Description to matcher|
+
+#### Logical
+|Matcher|Description|
+|-------|-----------|
+|allOf()|Takes an array of matchers, all of which must match target object|
+|anyOf()|Takes an array of matchers, any or at least one of which must match target object|
+|not()|Must not match target object|
+
+#### Object
+|Matcher|Description|
+|-------|-----------|
+|equalTo()|Checks if given objects are equal|
+|instanceOf()|checks if given object is of type x or is compatible to type x|
+|notNullValue()|checks if given object is not null|
+|nullValue()|checks if given object is null|
+|sameInstance()|checks if given object is same instance as another|
+
+Apart from these, there are also custom matchers.
